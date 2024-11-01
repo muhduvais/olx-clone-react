@@ -1,0 +1,78 @@
+.navbar {
+    background: #EFF1F3;
+}
+
+.navbar img.logo {
+    width: 95px;
+    height: 75px;
+}
+
+.navbar img.arrow-down {
+    width: 20px;
+}
+
+.sell-btn {
+    width: 100px;
+}
+
+@media (max-width: 1300px) {
+    .nav-left .search-bar {
+        width: 600px;
+    }
+}
+
+@media (max-width: 900px) {
+    .nav-left .search-bar {
+        width: 190px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .nav-left {
+        gap: 0px;
+    }
+
+    .nav-left .search-bar {
+        width: 130px;
+        height: 35px;
+        font-size: 0.9em;
+    }
+    
+    .nav-left .location {
+        display: none;
+    }
+
+    .sell-btn {
+        width: 80px;
+    }
+
+    .nav-right .language {
+        gap: 3px;
+    }
+
+    .nav-right .language h3 {
+        font-size: 0.9em;
+    }
+
+    .nav-right .language .arrow-down {
+        width: 15px;
+    }
+
+    .nav-right .login {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .nav-left .search-bar {
+        width: 100px;
+        height: 35px;
+        font-size: 0.9em;
+    }
+
+    .sell-btn {
+        width: 70px;
+    }
+}
